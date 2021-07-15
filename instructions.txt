@@ -1,0 +1,6 @@
+lw $t1, 0($a1)
+add $s0, $s0, $t1
+sub $t0, $t0, $s1
+add $a1, $a1, $s1
+bne $t0, $zero, -16
+sw $s0, 0($t3)
